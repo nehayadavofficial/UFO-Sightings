@@ -61,7 +61,7 @@ const Form: React.FC<FormProps> = ({ onSubmit }) => {
       setDateTime("");
       setEncounterType("");
       setDescription("");
-      navigate("/");
+      navigate("/form");
     }
   };
 
